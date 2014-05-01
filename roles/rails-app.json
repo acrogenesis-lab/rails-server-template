@@ -3,15 +3,9 @@
   "description": "Something which runs rails apps.",
   "default_attributes": {
     "rvm":{
-      "rubies": [
-        "2.1.0"
-      ],
-      "global" : "2.1.0",
-      "gems": {
-        "2.1.0" : [
-          {"name":"bundler"}
-        ]
-      }
+      "branch": "stable",
+      "default_ruby": "ruby-2.1.0",
+      "rubies": ["ruby-2.1.0"]
     }
   },
   "json_class": "Chef::Role",
