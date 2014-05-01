@@ -1,0 +1,24 @@
+{
+  "environment":"production",
+  "authorization": {
+    "sudo": {
+      // the deploy user specifically gets sudo rights
+      // if you're using vagrant it's worth adding "vagrant"
+      // to this array
+      "users": ["deploy"]
+    }
+
+  },
+  "postgresql" : {
+    "password" : {
+      "postgres" : ""
+    }
+  },
+  "run_list":
+  [
+    "role[server]",
+    "role[nginx]",
+    "role[postgres-server]",
+    "role[rails-app]"
+  ]
+}

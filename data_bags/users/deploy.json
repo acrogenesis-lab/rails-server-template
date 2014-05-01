@@ -1,0 +1,9 @@
+{
+  "id": "deploy",
+  "password": "$1$RbFZmdKK$N2TF3eiS2Mjj.jUARbFii0",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDnJ87CmXtILfbH73xBPfT09kRfDbi/9ziGCbJ3pNxrnA29VD4PPRK8VOpFuFvBJl+EfniBnziLHr+tzVzIBF2z9OOVsiZc+H/cHv1a3DZ/I+u8O0hguO1ZDrdJzXAIbjaLIPm/AjT5Cpuh8FT53uW4WnxuESs8ozYmQpPzVk7WdSpWdkGl1v1B7PK2NBJuiTo+zbJCU4utsF6PNdVBXgfuBCkX2QwGUGzSExKZC1V0Pz94wqPix4P6B3EthN6VfYBWC8UabF8WETq8zMQKctIHKeZRPP3nhPnoFePdZW89TMRdgd1YeqHAygFT9lqlD/JnJ1InAA+HuDbm36rcJHDN adrian.rangel@gmail.com"
+  ],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}

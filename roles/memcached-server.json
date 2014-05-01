@@ -1,13 +1,10 @@
 {
    "name": "memcached-server",
    "description": "Memcached server",
-   "default_attributes": {
-
-   },
+   "default_attributes": {},
    "json_class": "Chef::Role",
    "run_list": [
-      "memcached-tlq",
-      "monit_configs-tlq::memcached"
+      "memcached"
    ],
    "chef_type": "role"
 }

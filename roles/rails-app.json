@@ -2,26 +2,24 @@
   "name": "rails-app",
   "description": "Something which runs rails apps.",
   "default_attributes": {
-    "rbenv":{
+    "rvm":{
       "rubies": [
-        "1.9.2-p320"
+        "2.1.0"
       ],
-      "global" : "1.9.2-p320",
+      "global" : "2.1.0",
       "gems": {
-        "1.9.2-p320" : [
+        "2.1.0" : [
           {"name":"bundler"}
         ]
       }
     }
-
   },
   "json_class": "Chef::Role",
   "run_list": [
+    "unicorn",
     "rails_gem_dependencies-tlq",
-    "ruby_build",
-    "rbenv::system"
+    "recipe[rvm::system]"
   ],
   "chef_type": "role",
-  "override_attributes": {
-  }
+  "override_attributes": {}
 }
